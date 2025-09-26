@@ -1,0 +1,153 @@
+
+.body{
+  font-family: sans-serif;
+  margin:9% ;
+}
+
+
+.header a{
+  text-decoration:none;
+  color: white;
+
+}
+
+header{
+  display:flex;
+  height:75px ;
+  background-image:url(https://i.pinimg.com/1200x/f2/6c/ed/f26ced8b3713635ba1e5443cc4ae332a.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+background-position:center;
+ justify-content: space-between;
+  
+  padding: 90px;
+  text-align:left;
+}
+
+.logo{
+  display: flex;
+  text-decoration: none;
+ align-self: normal;
+ 
+}
+
+.logo img{
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 0.5px;
+}
+
+text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: baseline;
+}
+
+
+
+
+
+
+.nav{
+  padding: 2px;
+  margin: 0px;
+text-decoration: none;
+}
+
+.header{
+  margin: auto;
+  width: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+align-items: start;
+}
+
+
+.ul,ol,li{
+  list-style-type:none;
+
+}
+
+.nav li a{
+  text-decoration: none;
+  background-color:rgba(0, 0, 0, 0.5) ;
+  color: white;
+  text-decoration: none; 
+  padding: 10px 15px; 
+  display: block;
+
+  
+}
+
+.titulo{ 
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+.nav li a:hover{ 
+  background-color: #434343 ; 
+}
+
+.nav > li{
+  float: left; 
+  
+}
+
+
+.nav li ul{
+  display:none ;
+  position: absolute;
+  min-width:140px ;
+}
+
+.nav li:hover> ul{
+display: block; 
+}
+
+   
+     
+.slider-container {
+ display:flex;
+ width: 80%;
+height: 80vh;
+overflow-x:scroll ;
+scroll-snap-type: mandatory;
+    }
+
+  .slider-container img{
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit:cover ;
+    scroll-snap-align:center ;
+  }
+ 
+  
+  .contenedor{
+    display: flex;
+    align-items: center;
+  }
+
+  .txt-2{
+margin:15px 15px ;
+   text-align: center;
+font-size: x-large; 
+  }
+
+.txt-1{
+margin: 15px 15px;
+text-align: center;
+font-size: x-large;
+}
+
+.contenedor{
+display: flex;
+align-items: center;
+margin: 5% 5%;
+}
+
+.text-2{
+
+    margin:0px 20px ;
+    text-align: center;
+}
+
